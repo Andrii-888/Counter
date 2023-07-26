@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  background: yellow;
+  color: blue;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+#decBtn {
+  color: grey;
+}
+.mainBox {
+  text-align: center;
+}
+.btnBox  button{
+  margin-block: 20px;
+  margin-inline: 5px;
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-size: 24px;
+  font-weight: 500;
+}
+#countValue{
+    font-size: 80px;
+}
